@@ -1,0 +1,54 @@
+body, a {
+    font-family: 'Roboto', sans-serif;
+    color: #737373; 
+}
+
+.social {
+    float: right;
+    margin: 0;
+    flex-direction: row;
+}
+.active, .green {
+    color: #2ecc71;
+}
+
+.line {
+    border-bottom: #737373 1px solid;
+    padding: 20px 0px;
+}
+#video_section {
+    margin: 50px 0px;
+    padding: 50px 0px;
+    background-color: #efefef;
+}
+#action_call_1, .projects {
+    padding: 0px 150px;
+}
+#action-call-2 {
+    background-color: #322f2f;
+    padding: 50px 0px
+}
+.action-btn-2, .footer-nav {
+    float: right;
+}
+#action-call-2 h4{
+    display: inline;
+    color: #fff;
+}
+footer, #services {
+    background-color: #efefef;
+    padding: 30px 0px
+}
+.clearfix {
+    overflow: hidden;
+}
+.footer-nav li, .category li {
+    display: inline;
+    list-style: none;
+}
+#msg {
+    background-color: #2ecc71;
+    padding: 20px 0px;
+    color: #fff;
+    font-size: 1.5rem;
+}
